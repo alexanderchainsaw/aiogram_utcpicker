@@ -3,9 +3,8 @@
 pip install aiogram-utcpicker
 ```
 
-
 UTC selection tool for aiogram3 telegram bots
-<br>  
+![img.png](img.png)
 
 # Demo
 ```python
