@@ -1,6 +1,6 @@
 # aiogram_utcpicker
 ```
-pip install utc_picker
+pip install aiogram-utcpicker
 ```
 
 
