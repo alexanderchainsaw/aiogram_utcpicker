@@ -1,5 +1,7 @@
 # aiogram_utcpicker
-```pip install utc_picker```
+```
+pip install utc_picker
+```
 
 
 UTC selection tool for aiogram3 telegram bots
