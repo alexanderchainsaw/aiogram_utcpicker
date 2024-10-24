@@ -13,7 +13,7 @@ import logging
 import asyncio
 import sys
 import aiogram.client.default
-from src.aiogram_utcpicker import UtcPickerCallback, start_utc_picker, process_utc_picker
+from aiogram_utcpicker import UtcPickerCallback, start_utc_picker, process_utc_picker
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
