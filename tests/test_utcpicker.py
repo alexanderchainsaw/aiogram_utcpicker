@@ -1,8 +1,8 @@
 from unittest.mock import AsyncMock
 import pytest
 
-from src.aiogram_utcpicker import start_utc_picker, UtcPickerCallback, process_utc_picker
-from src.aiogram_utcpicker.utcpicker import VALID_TIMEZONES
+from aiogram_utcpicker import start_utc_picker, UtcPickerCallback, process_utc_picker
+from aiogram_utcpicker.utcpicker import VALID_TIMEZONES
 from aiogram.types import InlineKeyboardMarkup
 
 
