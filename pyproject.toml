@@ -2,9 +2,7 @@
 name = "aiogram-utcpicker"
 version = "0.1.0"
 description = "An inline tool for selecting valid timezone differences to UTC"
-authors = [
-    {name="alexanderchainsaw", email="alexanderkolesov.contact@gmail.com" }
-]
+authors = ["alexanderchainsaw <alexanderkolesov.contact@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
