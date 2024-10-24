@@ -8,7 +8,7 @@ UTC selection tool for aiogram3 telegram bots
 <br>  
 
 # Demo
-```
+```python
 import logging
 import asyncio
 import sys
