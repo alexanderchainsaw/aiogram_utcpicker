@@ -4,7 +4,10 @@ pip install aiogram-utcpicker
 ```
 
 UTC selection tool for aiogram3 telegram bots
+
 ![img.png](img.png)
+
+The tool is designed to allow users to choose only valid timezones (listed at https://timezonedb.com/time-zones)
 
 # Demo
 ```python
