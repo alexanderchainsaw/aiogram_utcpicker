@@ -4,7 +4,19 @@ pip install aiogram-utcpicker
 ```
 
 UTC selection tool for aiogram3 telegram bots
+
 ![img.png](img.png)
+# Use case
+The tool is designed to allow users interactively select valid timezones (listed at https://timezonedb.com/time-zones).
+
+To enforce valid timezone selection, the tool has some restrictions:
+ - Hours: Values only in the range of 0 to 14 (inclusively) are allowed.
+ - Minutes: Can only be 0, 30 or 45.
+
+
+Even with the restrictions listed above, it's still possible to select a timezone that is not listed at https://timezonedb.com/time-zones.
+
+If that happens, an error message will be displayed ( as a  notification envoked by `callback.answer()` )
 
 # Demo
 ```python
