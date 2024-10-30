@@ -85,7 +85,6 @@ async def convert_to_minutes(data: tuple) -> int | None:
 
 async def validate_timezone(data: tuple) -> bool:
     if f"UTC {data[0]}{data[1]:02d}:{data[2]:02d}" not in VALID_TIMEZONES:
-        print(f"UTC {data[0]}{data[1]:2d}:{data[2]:2d}")
         return False
     return True
 
