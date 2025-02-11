@@ -1,4 +1,4 @@
-[tool.poetry]
+[project]
 name = "aiogram-utcpicker"
 version = "0.1.4"
 description = "An inline tool for selecting valid timezone differences to UTC"
