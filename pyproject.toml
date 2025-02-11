@@ -17,5 +17,7 @@ pytest-asyncio = "^0.24.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+
 [project.urls]
 homepage = "https://github.com/alexanderchainsaw/aiogram_utcpicker"
+
