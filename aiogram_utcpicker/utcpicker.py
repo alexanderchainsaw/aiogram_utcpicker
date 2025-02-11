@@ -101,7 +101,7 @@ async def process_utc_picker(callback: CallbackQuery, data: UtcPickerCallback, l
         case UtcPickerActions.ignore:
             await callback.answer()
         case UtcPickerActions.change_sign:
-            data.sign = {'+': '-', '-': '+'}[data.sign]
+            data.sign = '+' if data.sign == '-' else '-'
             await callback.message.edit_reply_markup(reply_markup=await start_utc_picker(data))
         case UtcPickerActions.increase_hour | UtcPickerActions.decrease_hour:
             data.hour = (UTC_HOUR_VALUES * 2)[UTC_HOUR_VALUES.index(data.hour) + {
