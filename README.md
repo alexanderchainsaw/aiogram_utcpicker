@@ -71,9 +71,11 @@ By default, all captions are in english.
 To customize text captions, pass a `dict` with your translations to the `start_utc_picker()` function
 
 It should have the following structure:
-```
-{'cancel_button': 'Cancel', 
-'confirm_button': 'Confirm',
-'display_value': 'Time according to selected: ',
-'err_msg_invalid': 'Not a valid timezone'}
+```python
+{ # do NOT alter this column    # change values in this column to whatever language you need
+  'cancel_button':              'Cancel', 
+  'confirm_button':             'Confirm',
+  'display_value':              'Time according to selected: ',
+  'err_msg_invalid':            'Not a valid timezone'
+}
 ```
